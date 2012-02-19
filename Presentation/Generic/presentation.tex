@@ -1,0 +1,68 @@
+%\RequirePackage[l2tabu,orthodox]{nag}
+\RequirePackage[l2tabu]{nag}
+\documentclass[
+11pt,
+aspectratio=43,
+]{beamer}
+
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{ellipsis}
+\usepackage{siunitx} % \num{1234,5678}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{bibliography item}[text]
+\setbeamertemplate{frametitle continuation}[from second]
+
+\setbeamersize{text margin left = 1em}
+\setbeamersize{text margin right = 1em}
+
+\setbeamertemplate{footline}{
+  \begin{beamercolorbox}[ht=2.25ex,dp=1ex,right]{date in head/foot}
+    \insertframenumber{} / \inserttotalframenumber\hspace*{1ex} 
+  \end{beamercolorbox}
+}
+
+\subject{The subject}
+\title{The title}
+\subtitle{The subtitle}
+\author{The authors}
+\institute{The institute}
+\keywords{The keywords}
+\date{\today}
+
+%\titlegraphic{The title graphic}
+%\logo{The logo}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\begin{frame}{Outline}
+\tableofcontents
+\end{frame}
+
+\section{A section}
+
+\begin{frame}{A slide title}
+  A slide
+  \begin{itemize}
+    \item An item
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{References}
+  \nocite{*}
+  \bibliographystyle{plain}
+  \bibliography{presentation}
+\end{frame}
+
+\end{document}
