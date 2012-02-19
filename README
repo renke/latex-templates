@@ -1,6 +1,6 @@
-This is my personal collection of LaTeX templates. There are currently three different templates in two categories: Article and Presentation. Each template comes with a Makefile that can be used to build the it correctly. A simple `make` suffices. `make clean` can be used to remove all generated files.
+This is my personal collection of LaTeX templates. There are currently three different templates in two categories: Article and Presentation. Each template comes with a Makefile that can be used to build it correctly. A simple `make` suffices. `make clean` can be used to remove all generated files.
 
-Any feedback is welcome. And let me know if you find these templates useful.
+Any feedback is welcome. Also, let me know if you find these templates useful.
 
 Presentation
 ============
