@@ -1,0 +1,21 @@
+This is my personal collection of LaTeX templates. There are currently three different templates in two categories: Article and Presentation. Each template comes with a Makefile that can be used to build the it correctly. A simple `make` suffices. `make clean` can be used to remove all generated files.
+
+Any feedback is welcome. And let me know if you find these templates useful.
+
+Presentation
+============
+
+Generic
+-------
+A generic LaTeX template based on the popular Beamer class. It can be used to create presentations. Nothing too special about it. It includes an example BibTeX-based bibliography, though.
+
+Article
+=======
+
+Generic
+-------
+A generic LaTeX template based on the KOMA-Script scrartcl class. It can be used to create simple articles, such as homeworks, scientific papers and the like. It also includes a BibTeB-based bibliography.
+
+Generic+Sweave
+--------------
+Same as Generic, but uses Sweave to generate the PDF. That is, R code can be included in the document. Instead of a .tex file, a .Rnw file is edited. Syntax is the same with some special constructs that allow the inclusion of R code. The .Rnw extension seem to be recognized at least by Vim. Please let me know if there is a problem with other text editors.  
