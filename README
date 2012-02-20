@@ -14,7 +14,7 @@ Article
 
 Generic
 -------
-A generic LaTeX template based on the KOMA-Script scrartcl class. It can be used to create simple articles, such as homeworks, scientific papers and the like. It also includes a BibTeB-based bibliography.
+A generic LaTeX template based on the KOMA-Script scrartcl class. It can be used to create simple articles, such as homeworks, scientific papers and the like. It also includes an example BibTeX-based bibliography.
 
 Generic+Sweave
 --------------
