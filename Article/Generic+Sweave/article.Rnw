@@ -1,3 +1,4 @@
+\RequirePackage[l2tabu,orthodox]{nag}
 \documentclass[
   draft=false,
   titlepage=false,
