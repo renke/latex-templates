@@ -7,7 +7,7 @@ all:
 	rubber --pdf ${TEX_FILE_NAME}.tex
 
 clean:
-	rubber --pdf --clean ${TEX_FILE_NAME}.tex
+	rubber --pdf --gzip --clean ${TEX_FILE_NAME}.tex
 	rm -rf ${TEX_FILE_NAME}-sweave-fig-*.pdf
 	rm -rf ${TEX_FILE_NAME}.synctex.gz
 	rm -rf ${TEX_FILE_NAME}.tex
